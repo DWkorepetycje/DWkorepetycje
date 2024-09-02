@@ -378,14 +378,19 @@ h3{
     }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1221px) {
+    h3 {
+        margin-left: 15em;
+        margin-right: 15em;
+    }
+}
+
+@media (max-width: 994px) {
     h3 {
         margin-left: 0;
         margin-right: 0;
     }
 }
-
-
 
 /*
 <section class="kontakt_obraz">

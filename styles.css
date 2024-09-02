@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(49, 47, 47);
+    background-color: black;
     color: white;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
     margin:0;
@@ -19,20 +19,21 @@ header{
 
 /* Napisy sie podkreslaja jak na nie najedziemy */
 header a{
+    
     color: white;
     text-decoration: none;
     text-transform: uppercase;
     margin-top: 40px;
     font-weight: 700; 
     transition: color 0.3s ease, transform 0.3s ease; /* Płynne przejście dla efektów */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-
+       text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
+    
 }
 
 a:hover{
     text-decoration: underline;
     color: rgb(194, 219, 209); 
-    
+  
 }
 
 a{
@@ -138,6 +139,7 @@ section{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    
 }
 .features figure{
     margin: auto;
@@ -203,7 +205,7 @@ section{
 }
 
 footer{
-    background-color: rgba(0, 0, 0, 0.274);    
+    background-color: rgb(49,47,47);    
     color: rgb(240, 227, 227);
     padding: 10px 20px;
     font-size: 12px;
@@ -315,7 +317,13 @@ main {
 h1{
     margin-bottom: 30px;
     font-size: 2.5em;
-    color: #ffcc00;
+    color: #F7FF00;
+}
+
+h3{
+    color: #F7FF00; 
+    margin: 1em 22em 1.5em 22em;
+    line-height: 1.5em;
 }
 
 .offer h1 {

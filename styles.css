@@ -378,6 +378,15 @@ h3{
     }
 }
 
+@media (max-width: 800px) {
+    h3 {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+
+
 /*
 <section class="kontakt_obraz">
     <div class="box">

@@ -255,19 +255,19 @@ div{
 
 
 .icon {
-    font-size: 40px;
+    font-size: 2.5em;
     color: #1e73be;
     margin-bottom: 10px;
 }
 
 h3 {
-    font-size: 20px;
+    font-size: 1.25em;
     color: #1e73be;
     margin-bottom: 10px;
 }
 
 p {
-    font-size: 16px;
+    font-size: 1em;
     color: #333;
 }
 .offer-box a {
@@ -378,6 +378,7 @@ h3{
     }
 }
 
+/* TEKST W POSZCZEGOLNYCH KURSACH */
 @media (max-width: 1221px) {
     h3 {
         margin-left: 15em;
@@ -391,6 +392,16 @@ h3{
         margin-right: 0;
     }
 }
+
+@media (max-width: 149px){
+
+    .offer-box {
+        padding:0px;
+    }
+
+}
+
+
 
 /*
 <section class="kontakt_obraz">

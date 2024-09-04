@@ -342,7 +342,7 @@ h3{
 
 
 .offer-box {
-    max-width: 400px;
+   /*  max-width: 400px; */
     min-width: 400px;
     flex: 1;
     padding: 20px;

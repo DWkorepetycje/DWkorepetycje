@@ -402,7 +402,7 @@ h3{
     }
 }
 
-@media (max-width: 140px) {
+@media (max-width: 150px) {
     .offer-box h2 {
         font-size: 1.8em;
         margin-bottom: 10px;
@@ -414,6 +414,10 @@ h3{
         font-size: 1.2em;
         color: #b3b3b3;
         min-width: 400px;
+    }
+
+    .offer-box {
+        padding: 2rem;
     }
 }
 
